@@ -12,13 +12,37 @@ ASSIGNMENT RULES
  Enumerate and describe the main datatypes in JavaScript. Try to explain the concepts as you were speaking to a 12 years old.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* 
+// Datatypes in JavaScript
+There are 7 datatypes in JavaScript
+1) Numbers - Can be nay Number (41, -32, 0, 21.0256,...)
+             
+2) Strings - String is a sequence of Chracters.
+             Each element in a string occupies a position
+             Length of a string is number of elements in it.
+
+3) Boolean - Boolean represents logical entry and can have only two values: True or False.
+
+4) undefined - Undefined represents value that does not exist yet.
+               Everytime, we declare a variable, its content is undefined
+
+5) null - null repersents empty value.
+          The variable contains nothing.
+6) BigInt
+7) Symbol
+
+*/
 
 /* EXERCISE 2
  Try to describe what a variable is, in your own words.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+-Variables are containers for storing data
+-There are two types of variables: local variable and global variable
+- Variables are case sensitive. For eg., x and X are diffenet variables.
+
+*/
 
 /* EXERCISE 3
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
@@ -85,13 +109,13 @@ console.log(difference)
  Finally, verify that the equality between name1 and name2 becomes true if both are lowercase (without changing the value of name2).
 */
 
-
+/*
 var name1 = "john"
 var name2 = "John"
 
 console.log("\n -------Equality------")
 console.log("Is john equal to John", name1.toLowerCase() === name2.toLowerCase() )
-
+*/
 
 
 
@@ -100,7 +124,19 @@ console.log("Is john equal to John", name1.toLowerCase() === name2.toLowerCase()
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
 
-/* WRITE YOUR ANSWER HERE */
+ 
+var x = [ '1', '2', '3', '4', '5', '6', '7', '8', '9'] 
+
+console.log(x)
+
+if (x === 1) {
+    console.log("One")
+} else {
+    console.log("none")
+}
+
+
+
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
