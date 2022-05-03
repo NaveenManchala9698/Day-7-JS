@@ -23,7 +23,7 @@ ASSIGNMENT RULES
 /* EXERCISE 3
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
 */
-
+/*
 let a = 12
 let b = 20
 
@@ -35,26 +35,49 @@ console.log("The sum of a and b is: sum ")
 console.log(a)
 console.log(b)
 console.log(sum)
-
+*/
 
 
 /* EXERCISE 4
  Create a variable named x and assign to it the number 12.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+var x
+var x = 12
+console.log(x)
+*/
+
+
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+var name
+var name = "John Doe"
+
+console.log(name)
+*/
+
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
 */
 
-/* WRITE YOUR ANSWER HERE */
+/*
+let y = 12
+console.log(y)
+
+//Substract two  numbers
+let difference = y - x
+
+//Display Result
+console.log("The difference of y and x is: difference")
+console.log(difference)
+*/
+
 
 /* EXERCISE 7
  Create two variables: name1 and name2. Assign to name1 the string "john", and to name2 the string "John" (this one has a capital J!)
@@ -62,7 +85,15 @@ console.log(sum)
  Finally, verify that the equality between name1 and name2 becomes true if both are lowercase (without changing the value of name2).
 */
 
-/* WRITE YOUR ANSWER HERE */
+
+var name1 = "john"
+var name2 = "John"
+
+console.log("\n -------Equality------")
+console.log("Is john equal to John", name1.toLowerCase() === name2.toLowerCase() )
+
+
+
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
