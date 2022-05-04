@@ -68,10 +68,15 @@ console.log(sum)
 
 /*
 var x
+//Assigning the value
+var x = 12
+console.log(x)
+
+
+// Or
 var x = 12
 console.log(x)
 */
-
 
 
 /* EXERCISE 5
@@ -80,6 +85,7 @@ console.log(x)
 
 /*
 var name
+//Assigning the string
 var name = "John Doe"
 
 console.log(name)
@@ -114,6 +120,9 @@ var name1 = "john"
 var name2 = "John"
 
 console.log("\n -------Equality------")
+console.log("Is john equal to John", name1 === name2)
+
+//Case Sensitive
 console.log("Is john equal to John", name1.toLowerCase() === name2.toLowerCase() )
 */
 
@@ -124,17 +133,20 @@ console.log("Is john equal to John", name1.toLowerCase() === name2.toLowerCase()
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
 
-/* 
-var x = [ '1', '2', '3', '4', '5', '6', '7', '8', '9'] 
+ 
+let x = 3 
 
 console.log(x)
 
 if (x === 1) {
     console.log("One")
-} else {
-    console.log("none")
+} 
+else if (x === 2) {
+    console.log("Two")
 }
-*/
+else if (x === 3) {
+    console.log("Three")
+
 
 
 
@@ -197,7 +209,7 @@ console.log("Result is:", name + age)
  Write a piece of code for finding the average of two given integers.
 */
 
-
+/*
 let x = 4
 let y = 6
 
@@ -205,7 +217,7 @@ console.log(x)
 console.log(y)
 
 console.log("The average of x and y is:", (x + y)/2)
-
+*/
 
 
 /* EXTRA 6
